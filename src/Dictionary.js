@@ -14,7 +14,7 @@ export default function Dictionary() {
     alert(`Searching for ${keyword} definition`);
 
     let apiKey = `a1b23b3d4098a0a16ftb2b02cf94o4d8`;
-    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word={sunset}&key=${apiKey}`;
+    let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word={winter}&key=${apiKey}`;
 
     axios.get(apiUrl).then(handleResponse);
   }
